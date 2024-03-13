@@ -1,0 +1,4 @@
+airflow
+pendulum==2.0.0
+pandas
+psycopg2
