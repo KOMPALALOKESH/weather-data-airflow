@@ -1,6 +1,12 @@
 # Weather api data- - Airflow
 
 ## contents
+* snapshot - workflow
+* Docker init
+* Install airflow
+* Create DAG
+* DAG
+* conlusion
 
 ## snapshot - workflow
 <div style="text-align:center;">
@@ -43,6 +49,8 @@ After airflow install , create DAG for weather data etl process, this includes:
     </div><br>
 * Data loaded into postgresDB::
     <div style="text-align:center;">
-      <img src="/media_files/etlWeatherData_tree.png" alt="etl workflow">
+      <img src="/media_files/weatherData_table.png" alt="etl workflow">
     </div><br>
   
+## conlusion
+From above the data is loaded into postgres with xcom_push and xcom_pull between the different tasks in this etl (namely extract, transform. load) and trigger process is done correctly to get the data and the this etl is process is <ins>***scheduled once a day***</ins> 
