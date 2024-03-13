@@ -43,6 +43,6 @@ After airflow install , create DAG for weather data etl process, this includes:
     </div><br>
 * Data loaded into postgresDB::
     <div style="text-align:center;">
-      <img src="/media_files/workflow.jpg" alt="etl workflow">
+      <img src="/media_files/etlWeatherData_tree.png" alt="etl workflow">
     </div><br>
   
